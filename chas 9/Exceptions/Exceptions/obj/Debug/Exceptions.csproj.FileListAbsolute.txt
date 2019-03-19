@@ -1,0 +1,7 @@
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\bin\Debug\Exceptions.exe.config
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\bin\Debug\Exceptions.exe
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\bin\Debug\Exceptions.pdb
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\obj\Debug\Exceptions.exe
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Exceptions\obj\Debug\Exceptions.pdb

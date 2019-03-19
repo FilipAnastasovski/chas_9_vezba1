@@ -1,0 +1,10 @@
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\obj\Debug\chas_9_vezba1.csprojAssemblyReference.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\obj\Debug\chas_9_vezba1.csproj.CoreCompileInputs.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\bin\Debug\chas_9_vezba1.exe.config
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\bin\Debug\chas_9_vezba1.exe
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\bin\Debug\chas_9_vezba1.pdb
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\bin\Debug\Filmovi.dll
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\bin\Debug\Filmovi.pdb
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\obj\Debug\chas_9_vezba1.csproj.CopyComplete
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\obj\Debug\chas_9_vezba1.exe
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\chas_9_vezba1\obj\Debug\chas_9_vezba1.pdb

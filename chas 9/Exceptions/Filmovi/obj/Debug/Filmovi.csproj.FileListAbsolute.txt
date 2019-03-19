@@ -1,0 +1,6 @@
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\bin\Debug\Filmovi.dll
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\bin\Debug\Filmovi.pdb
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\obj\Debug\Filmovi.csprojAssemblyReference.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\obj\Debug\Filmovi.csproj.CoreCompileInputs.cache
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\obj\Debug\Filmovi.dll
+C:\Users\filip.anastasovski\Desktop\Filip_A\C#\chas 9\Exceptions\Filmovi\obj\Debug\Filmovi.pdb
