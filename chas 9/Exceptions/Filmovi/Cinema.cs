@@ -23,7 +23,7 @@ namespace Filmovi
 
         }
 
-        static void MoviePlaying( Movie movie)
+        public static void MoviePlaying(Movie movie)
         {
            Console.WriteLine($"Watching {movie.Title}");
         }

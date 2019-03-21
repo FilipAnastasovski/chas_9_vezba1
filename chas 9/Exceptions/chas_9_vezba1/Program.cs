@@ -44,12 +44,112 @@ namespace chas_9_vezba1
                 Cinema cinema2 = new Cinema("Milenium");
                 cinema2.Halls = new List<int>() { 1, 2 };
                 cinema2.ListOfMovies = MovieSet2;
-            }
-            catch
-            {
-                Console.WriteLine("greshka ima");
-            }
 
+
+
+                Console.WriteLine("Choose Cinema:");
+                Console.WriteLine("1. Cineplexx \n2. Milenium");
+                int cinemaInput = int.Parse(Console.ReadLine());
+                Cinema currentCinema = new Cinema();
+                if (cinemaInput == 1)
+                {
+                    currentCinema = cinema1;
+                }
+                else if (cinemaInput == 2)
+                {
+                    currentCinema = cinema2;
+                }
+                else
+                {
+                    throw new Exception("Please enter 1 or 2.");
+                }
+
+                Console.WriteLine("Movies in this cinema:");
+                Console.WriteLine("1) Show all movies");
+                Console.WriteLine("2) Show by genre");
+                int moviesInput = int.Parse(Console.ReadLine());
+                if (moviesInput == 1)
+                {
+                    Console.WriteLine("Choose a movie to watch: ( Write the name )");
+                    foreach (var movie in currentCinema.ListOfMovies)
+                    {
+                        Console.WriteLine(movie.Title);
+                    }
+
+                    string inputMovie = Console.ReadLine();
+                    foreach (Movie movie in currentCinema.ListOfMovies)
+                    {
+                        if (movie.Title.ToLower() == inputMovie.ToLower())
+                        {
+                            currentCinema.MoviePlaying(movie);
+                        }
+                    }
+                }
+                else if (moviesInput == 2)
+                {
+                    Console.WriteLine("Enter genre:");
+                    Console.WriteLine("1) Comedy");
+                    Console.WriteLine("2) Horror");
+                    Console.WriteLine("3) Action");
+                    Console.WriteLine("4) Drama");
+                    Console.WriteLine("5) SciFi");
+                    int inputGenre = int.Parse(Console.ReadLine());
+                    Genre currentGenre = new Genre();
+
+                    switch (inputGenre)
+                    {
+                        case 1:
+                            currentGenre = Genre.Comedy;
+                            break;
+                        case 2:
+                            currentGenre = Genre.Horror;
+                            break;
+                        case 3:
+                            currentGenre = Genre.Action;
+                            break;
+                        case 4:
+                            currentGenre = Genre.Drama;
+                            break;
+                        case 5:
+                            currentGenre = Genre.SciFi;
+                            break;
+                        default:
+                            throw new Exception("The genre input was not correct!");
+                    }
+
+                    Console.WriteLine("Choose a movie to watch: ( Write the name )");
+                    List<Movie> personMovies = new List<Movie>();
+                    foreach (var movie in currentCinema.ListOfMovies.Where(movie => movie.Genre == currentGenre).ToList())
+                    {
+                        personMovies.Add(movie);
+                        Console.WriteLine(movie.Title);
+                    }
+
+                    string inputFilm = Console.ReadLine();
+                    currentCinema.MoviePlaying(personMovies.Where(movie => movie.Title.Trim().ToLower() == inputFilm.Trim().ToLower()).FirstOrDefault());
+                }
+                else
+                {
+                    throw new Exception("You have entered a wrong input!");
+                }
+
+
+
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("You did not enter a correct format!");
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("There is no movie like that!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.ReadLine();
 
 
             Console.ReadLine();
